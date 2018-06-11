@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Document</title>
+<title>首页</title>
 <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
@@ -27,14 +27,21 @@
 		</div>
 	</div>
 <!-- banner -->
-	<div id="banner">
-		<img src="img/index/solid_1.jpg" />
-		<img src="img/index/solid_2.jpg" />
-		<ul id="btns">
-			<li></li>
-			<li></li>
-		</ul>
+	<div class="bannerBox">
+		<div id="banner">
+			<img src="img/index/solid_1.jpg" />
+			<img src="img/index/solid_2.jpg" />
+			<ul id="btns">
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="ff">
+			<img class="fff" src="img/index/ban.jpg">
+			<p>美国高品质旅行生活品牌TUMI途明，把独特创新的设计理念与卓越功能巧妙地融合，成就每一段精彩旅程。</p>
+		</div>
 	</div>
+	
 <!-- menu -->
 	<div class="menu">
 		<ul class="menu_con">
@@ -55,13 +62,23 @@
 		<div class="go">
 			<div class="on_left">
 				<img src="img/index/ongoing_1.jpg">
+				<span>独特创新</span>
+				<p></p>
 			</div>
 			<div class="on_cen">
-				<a class="on_1" href="#"><img src="img/index/ongoing_3.jpg"></a>
-				<a class="on_2" href="#"><img src="img/index/ongoing_2.jpg"></a>
+				<a class="on_1" href="#">
+					<img src="img/index/ongoing_3.jpg">
+					<p><span>拉&nbsp;&nbsp;杆&nbsp;&nbsp;箱</span></p>
+				</a>
+				<a class="on_2" href="#">
+					<img src="img/index/ongoing_2.jpg">
+					<p><span>公&nbsp;&nbsp;文&nbsp;&nbsp;包</span></p>
+				</a>
 			</div>
 			<div class="on_right">
 				<img src="img/index/ongoing_4.jpg">
+				<span>精湛工艺</span>
+				<p></p>
 			</div>
 		</div>
 	</div>
@@ -243,5 +260,9 @@
 			<p>ICP备11041704号-26 | Copyright © 经营证照</p>
 		</div>
 	</div>
+<!-- fixed -->
+	<a id="fixed" href="javascript:scrollTo(0,0);"><img src="img/index/back.jpg"></a>
 </body>
 </html>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/solid.js"></script>

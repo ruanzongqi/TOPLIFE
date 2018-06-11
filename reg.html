@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>注册页</title>
-<link rel="stylesheet" type="text/css" href="css/register.css">
+<title>提交页</title>
+<link rel="stylesheet" type="text/css" href="css/reg.css">
 </head>
 <body>
 <!-- header -->
@@ -42,12 +42,27 @@
 				<p>注册成功</p>
 			</div>
 		</div>
-		<div class="bom">
-			<span>中国 0086</span>
-			<input id="userphone" class="num1" type="text" name="phonenumber" placeholder="建议使用常用手机号"><br/>
-			<input class="num2" id="check" type="button" value="点击按钮进行验证"><br/>
-			<input class="num3"type="checkbox"> &nbsp;我已阅读并同意<a>《toplife用户注册协议》</a><a>《隐私政策》</a><br/>
-			<a class="num4" href="#">下一步</a>
+		<div class="sign-form">
+			<form method="post" action="reg.php">
+				<p class="phonenumber">
+					<span>手机号码</span><input class="border" type="text" name="userphone" placeholder="请填写正确的手机号码">
+				</p>
+				<p class="username">
+					<span>用&nbsp;户&nbsp;名&nbsp;</span><input class="border" type="text" name="username" placeholder="设置用户名">
+				</p>
+				<p class="password">
+					<span>设置密码</span><input class="border" type="password" name="userpass" placeholder="设置密码">
+				</p>
+				<p class="pass">
+					<span>确认密码</span><input class="border" type="password" placeholder="确认密码">
+				</p>
+				<p class="select">
+					<input class="bordercheck" type="checkbox">我已阅读并同意<a href="javascript:;">《toplife用户注册协议》</a>
+				</p>
+				<p class="submit">
+					<input type="submit" value="提交">
+				</p>
+			</form>
 		</div>
 	</div>
 <!-- footer -->
@@ -62,4 +77,3 @@
 	</div>
 </body>
 </html>
-<script type="text/javascript" src="js/register.js"></script>

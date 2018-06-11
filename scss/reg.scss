@@ -1,0 +1,226 @@
+@charset "utf-8";
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,h1,h2,h3,h4,h5,h6,fieldset,input,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+	background-color:#ffffff;
+}
+a{
+	text-decoration:none;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: none;
+	display:block;
+}
+// header
+.header{
+	width:100%;
+	height:105px;
+	background-color:#232321;
+	.header_con{
+		width:1190px;
+		height:105px;
+		margin:0 auto;
+		// background-color:red;
+		position:relative;
+		.header_left{
+			float:left;
+			width:110px;
+			height:38px;
+			margin-top:20px;
+			.imgs_1{
+				width:30px;
+				height:36px;
+				float:left;
+				margin-right:10px;
+			}
+			.login{
+				float:left;
+				width:70px;
+				height:36px;
+				margin-top:7px;
+				a{	
+					width:24px;
+					height:16px;
+					font-size:12px;
+					color:#ffffff;
+				}
+			}
+		}
+		.header_logo{
+			position:absolute;
+			left:529px;
+			top:22px;
+			width:120px;
+			height:74px;
+			// float:left;
+			// margin-left:435px;
+			a{	
+				display:block;
+				width:120px;
+				height:74px;
+				img{
+					width:120px;
+					height:74px;
+				}
+			}
+		}
+		.header_right{
+			float:right;
+			width:115px;
+			height:38px;
+			margin-top:20px;
+			// margin-right:118px;
+			// background-color:blue;
+			.imgs_2{
+					width:38px;
+					height:28px;
+					float:left;
+					// margin-right:48px;
+					
+			}
+			.imgs_3{
+					width:38px;
+					height:28px;
+					float:right;
+			}
+		}
+	}
+}
+// main
+.main{
+	width:400px;
+	// height:400px;
+	margin:0 auto;
+	margin-top:60px;
+	// margin-bottom:10px;
+	// background:pink;
+	.top{
+		width:400px;
+		height:123px;
+		margin-left:35px;
+		// background:gray;
+		.top_1{
+			float: left;
+			width:67px;
+			height:54px;
+			margin:5px 55px 0 10px;
+			// margin-top:5px;
+			// background:red;
+			span{
+				display:block;
+				width:24px;
+				height:24px;
+				border-radius:50%;
+				background:#33bb44;
+				text-align:center;
+				line-height:24px;
+				font-size:12px;
+				margin-left:15px;
+				margin-top:10px;
+				color:#ffffff;
+			}
+			p{
+				width:67px;
+				height:20px;
+				font-size:12px;
+				margin-top:10px;
+				color:#33bb44;
+			}
+		}
+	}
+	.sign-form{
+		width:400px;
+		height:450px;
+		// background:red;
+		overflow:hidden;
+		p{	
+			width:386px;
+			height:40px;
+			// background:yellow;
+			margin-top:30px;
+		}
+		span{
+			display:block;
+			float: left;
+			font-size:14px;
+			text-align:right;
+			line-height:40px;
+			margin-right:18px;
+		}
+		.border{
+			float: left;
+			width:307px;
+			height:37px;
+			text-indent:10px;
+		}
+		.select{
+			font-size:12px;
+			.bordercheck{
+				margin-left:70px;
+				color:black;
+				margin-right:5px;
+				float:left;
+			}
+			a{
+				font-size:12px;
+				color:#a9a9a9;
+			}
+		}
+		.submit{
+			input{
+				width:307px;
+				height:37px;
+				margin-left: 75px;
+				border:none;
+				outline:none;
+			}
+		}
+	}
+}
+// footer
+.footer{
+	width:100%;
+	height:114px;
+	background:#f5f5f5;
+	margin-top:15px;
+	.footer_con{
+		width:1190px;
+		height:92px;
+		margin:0 auto;
+		text-align:right;
+		overflow:hidden;
+		position:relative;
+		.p1{
+			position:absolute;
+			left:100px;
+			top:60px;
+			font-size:12px;
+			color:#a9a9a9;
+			img{
+				float: left;
+				width:15px;
+				height:18px;
+			}
+		}
+		.ft_logo{
+			position:absolute;
+			left:545px;
+			top:40px;
+			width:100px;
+			height:61px;
+		}
+		.p2{
+			position:absolute;
+			right:100px;
+			top:60px;
+			font-size:12px;
+			color:#a9a9a9;
+		}
+	}
+}

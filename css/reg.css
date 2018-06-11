@@ -1,0 +1,215 @@
+@charset "UTF-8";
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, h1, h2, h3, h4, h5, h6, fieldset, input, textarea, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑",Arial;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+.header {
+  width: 100%;
+  height: 105px;
+  background-color: #232321;
+}
+.header .header_con {
+  width: 1190px;
+  height: 105px;
+  margin: 0 auto;
+  position: relative;
+}
+.header .header_con .header_left {
+  float: left;
+  width: 110px;
+  height: 38px;
+  margin-top: 20px;
+}
+.header .header_con .header_left .imgs_1 {
+  width: 30px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+}
+.header .header_con .header_left .login {
+  float: left;
+  width: 70px;
+  height: 36px;
+  margin-top: 7px;
+}
+.header .header_con .header_left .login a {
+  width: 24px;
+  height: 16px;
+  font-size: 12px;
+  color: #ffffff;
+}
+.header .header_con .header_logo {
+  position: absolute;
+  left: 529px;
+  top: 22px;
+  width: 120px;
+  height: 74px;
+}
+.header .header_con .header_logo a {
+  display: block;
+  width: 120px;
+  height: 74px;
+}
+.header .header_con .header_logo a img {
+  width: 120px;
+  height: 74px;
+}
+.header .header_con .header_right {
+  float: right;
+  width: 115px;
+  height: 38px;
+  margin-top: 20px;
+}
+.header .header_con .header_right .imgs_2 {
+  width: 38px;
+  height: 28px;
+  float: left;
+}
+.header .header_con .header_right .imgs_3 {
+  width: 38px;
+  height: 28px;
+  float: right;
+}
+
+.main {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.main .top {
+  width: 400px;
+  height: 123px;
+  margin-left: 35px;
+}
+.main .top .top_1 {
+  float: left;
+  width: 67px;
+  height: 54px;
+  margin: 5px 55px 0 10px;
+}
+.main .top .top_1 span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #33bb44;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.main .top .top_1 p {
+  width: 67px;
+  height: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #33bb44;
+}
+.main .sign-form {
+  width: 400px;
+  height: 450px;
+  overflow: hidden;
+}
+.main .sign-form p {
+  width: 386px;
+  height: 40px;
+  margin-top: 30px;
+}
+.main .sign-form span {
+  display: block;
+  float: left;
+  font-size: 14px;
+  text-align: right;
+  line-height: 40px;
+  margin-right: 18px;
+}
+.main .sign-form .border {
+  float: left;
+  width: 307px;
+  height: 37px;
+  text-indent: 10px;
+}
+.main .sign-form .select {
+  font-size: 12px;
+}
+.main .sign-form .select .bordercheck {
+  margin-left: 70px;
+  color: black;
+  margin-right: 5px;
+  float: left;
+}
+.main .sign-form .select a {
+  font-size: 12px;
+  color: #a9a9a9;
+}
+.main .sign-form .submit input {
+  width: 307px;
+  height: 37px;
+  margin-left: 75px;
+  border: none;
+  outline: none;
+}
+
+.footer {
+  width: 100%;
+  height: 114px;
+  background: #f5f5f5;
+  margin-top: 15px;
+}
+.footer .footer_con {
+  width: 1190px;
+  height: 92px;
+  margin: 0 auto;
+  text-align: right;
+  overflow: hidden;
+  position: relative;
+}
+.footer .footer_con .p1 {
+  position: absolute;
+  left: 100px;
+  top: 60px;
+  font-size: 12px;
+  color: #a9a9a9;
+}
+.footer .footer_con .p1 img {
+  float: left;
+  width: 15px;
+  height: 18px;
+}
+.footer .footer_con .ft_logo {
+  position: absolute;
+  left: 545px;
+  top: 40px;
+  width: 100px;
+  height: 61px;
+}
+.footer .footer_con .p2 {
+  position: absolute;
+  right: 100px;
+  top: 60px;
+  font-size: 12px;
+  color: #a9a9a9;
+}
+
+/*# sourceMappingURL=reg.css.map */
