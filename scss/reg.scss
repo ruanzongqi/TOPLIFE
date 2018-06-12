@@ -94,7 +94,7 @@ img{
 }
 // main
 .main{
-	width:400px;
+	width:500px;
 	// height:400px;
 	margin:0 auto;
 	margin-top:60px;
@@ -103,7 +103,7 @@ img{
 	.top{
 		width:400px;
 		height:123px;
-		margin-left:35px;
+		margin-left:60px;
 		// background:gray;
 		.top_1{
 			float: left;
@@ -135,17 +135,17 @@ img{
 		}
 	}
 	.sign-form{
-		width:400px;
+		width:500px;
 		height:450px;
 		// background:red;
 		overflow:hidden;
 		p{	
-			width:386px;
+			width:500px;
 			height:40px;
 			// background:yellow;
 			margin-top:30px;
 		}
-		span{
+		.txt{
 			display:block;
 			float: left;
 			font-size:14px;
@@ -158,6 +158,17 @@ img{
 			width:307px;
 			height:37px;
 			text-indent:10px;
+		}
+		.txt2{
+			display:block;
+			float: left;
+			margin-left:10px;
+			width:100px;
+			height:37px;
+			line-height:37px;
+			color:red;
+			font-size: 12px;
+			// background:blue;
 		}
 		.select{
 			font-size:12px;

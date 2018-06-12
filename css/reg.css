@@ -91,14 +91,14 @@ img {
 }
 
 .main {
-  width: 400px;
+  width: 500px;
   margin: 0 auto;
   margin-top: 60px;
 }
 .main .top {
   width: 400px;
   height: 123px;
-  margin-left: 35px;
+  margin-left: 60px;
 }
 .main .top .top_1 {
   float: left;
@@ -127,16 +127,16 @@ img {
   color: #33bb44;
 }
 .main .sign-form {
-  width: 400px;
+  width: 500px;
   height: 450px;
   overflow: hidden;
 }
 .main .sign-form p {
-  width: 386px;
+  width: 500px;
   height: 40px;
   margin-top: 30px;
 }
-.main .sign-form span {
+.main .sign-form .txt {
   display: block;
   float: left;
   font-size: 14px;
@@ -149,6 +149,16 @@ img {
   width: 307px;
   height: 37px;
   text-indent: 10px;
+}
+.main .sign-form .txt2 {
+  display: block;
+  float: left;
+  margin-left: 10px;
+  width: 100px;
+  height: 37px;
+  line-height: 37px;
+  color: red;
+  font-size: 12px;
 }
 .main .sign-form .select {
   font-size: 12px;

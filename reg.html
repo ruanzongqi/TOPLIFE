@@ -38,29 +38,33 @@
 				<p>填写信息</p>
 			</div>
 			<div class="top_1">
-				<span>3</span>
-				<p>注册成功</p>
+				<span style="background:#a9a9a9">3</span>
+				<p style="color:#a9a9a9">注册成功</p>
 			</div>
 		</div>
 		<div class="sign-form">
 			<form method="post" action="reg.php">
 				<p class="phonenumber">
-					<span>手机号码</span><input class="border" type="text" name="userphone" placeholder="请填写正确的手机号码">
+					<span class="txt">手机号码</span><input class="border" id="numId" type="text" name="userphone" placeholder="请填写正确的手机号码">
+					<span class="txt2" id="spanId1">*</span>
 				</p>
 				<p class="username">
-					<span>用&nbsp;户&nbsp;名&nbsp;</span><input class="border" type="text" name="username" placeholder="设置用户名">
+					<span class="txt">用&nbsp;户&nbsp;名&nbsp;</span><input class="border" id="usernameId" type="text" name="username" placeholder="设置用户名">
+					<span class="txt2" id="spanId2">*</span>
 				</p>
 				<p class="password">
-					<span>设置密码</span><input class="border" type="password" name="userpass" placeholder="设置密码">
+					<span class="txt">设置密码</span><input class="border" id="passId" type="password" name="userpass" placeholder="设置密码">
+					<span class="txt2" id="spanId3">*</span>
 				</p>
 				<p class="pass">
-					<span>确认密码</span><input class="border" type="password" placeholder="确认密码">
+					<span class="txt">确认密码</span><input class="border" id="sureId" type="password" placeholder="确认密码">
+					<span class="txt2" id="spanId4">*</span>
 				</p>
 				<p class="select">
-					<input class="bordercheck" type="checkbox">我已阅读并同意<a href="javascript:;">《toplife用户注册协议》</a>
+					<input class="bordercheck" type="checkbox" checked>我已阅读并同意<a href="javascript:;">《toplife用户注册协议》</a>
 				</p>
 				<p class="submit">
-					<input type="submit" value="提交">
+					<input id="sub" type="submit" value="提交">
 				</p>
 			</form>
 		</div>
@@ -77,3 +81,5 @@
 	</div>
 </body>
 </html>
+<script type="text/javascript" src="js/RegExp.js"></script>
+<script type="text/javascript" src="js/reg.js"></script>

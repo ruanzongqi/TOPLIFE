@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		欢迎来到1802班的首页！
+		<div id="welcomeBox">
+			欢迎您：<span id="userNameSpan">某人</span>
+		</div>
+		<div id="loginBox">
+			用户名：<input id="username" type="text" />
+			密码：<input id="userpass" type="password" />
+			<input id="btnLogin" type="button" value="登录"/>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/cookie.js" ></script>
+<script type="text/javascript">
+function $(id){
+	return document.getElementById(id);
+}
+
+window.onload = function(){
+	let username = getCookie("username");
+	if(username!=""){
+	    $("welcomeBox").style.display="block";
+	    $("userNameSpan").innerHTML=username;
+	    $("loginBox").style.display="none";
+	}else{
+	    $("welcomeBox").style.display="none";
+	    $("loginBox").style.display="block";	
+	}
+}
+
+</script>

@@ -9,7 +9,7 @@ window.onload=function(){
 			if(xhr.readyState==4 && xhr.status==200){
 				if(xhr.responseText=="1"){
 					saveCookie("username",$("username").value,7);
-					location.href="index.html";
+					location.href="index1.html";
 				}else{
 					alert("用户名或者密码不对，请重新输入！")
 				}
