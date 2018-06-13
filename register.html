@@ -12,17 +12,17 @@
 			<div class="header_left">
 				<img class="imgs_1" src="img/index/header_1.jpg" />
 				<div class="login">
-					<a href="#">登录</a>
+					<a href="login.html">登录</a>
 					<span>/</span>
-					<a href="#">注册</a>
+					<a href="register.html">注册</a>
 				</div>
 			</div>
 			<div class="header_logo">
-				<a href="#"><img src="img/index/logo.jpg"></a>
+				<a href="index.html"><img src="img/index/logo.jpg"></a>
 			</div>
 			<div class="header_right">
 				<a class="imgs_2" href="#"><img src="img/index/header_2.jpg" /></a>
-				<a class="imgs_3" href="#"><img src="img/index/header_3.jpg" /></a>
+				<a class="imgs_3" href="shopps.html"><img src="img/index/header_3.jpg" /></a>
 			</div>
 		</div>
 	</div>
@@ -43,11 +43,14 @@
 			</div>
 		</div>
 		<div class="bom">
-			<span>中国 0086</span>
+			<select>
+				<option>中国 0086</option>
+				<option>美国 0001</option>
+			</select>
 			<input id="userphone" class="num1" type="text" name="phonenumber" placeholder="建议使用常用手机号"><br/>
 			<input class="num2" id="check" type="button" value="点击按钮进行验证"><br/>
 			<input class="num3" type="checkbox" checked> &nbsp;我已阅读并同意<a>《toplife用户注册协议》</a><a>《隐私政策》</a><br/>
-			<a class="num4" href="#">下一步</a>
+			<input class="num4" id="next" type="button" value="下一步">
 		</div>
 	</div>
 <!-- footer -->
@@ -62,4 +65,5 @@
 	</div>
 </body>
 </html>
+<script type="text/javascript" src="js/RegExp.js"></script>
 <script type="text/javascript" src="js/register.js"></script>

@@ -138,22 +138,29 @@ img{
 		height:123px;
 		margin-top:20px;
 		font-size:12px;
-		span{
+		select{
 			float: left;
 			width:96px;
-			height:47px;
+			height:51px;
 			border:1px solid #dddddd;
 			border-right:none;
 			font-size:12px;
 			color:#666666;
 			text-align:center;
 			line-height:47px;
+			outline:none;
+			text-indent:10px;
 			// background:red;
+			option{
+				text-indent:10px;
+			}
 		}
 		.num1{
 			float: left;
 			width:261px;
 			height:47px;
+			text-indent:5px;
+			outline:none;
 		}
 		.num2{
 			margin-top:31px;
@@ -174,13 +181,15 @@ img{
 			color:#0066cc;
 		}
 		.num4{
-			display:block;
-			padding:18px 160px;
+			// display:block;
+			// padding:18px 160px;
 			margin-top:25px;
-			width:43px;
-			height:15px;
+			width:363px;
+			height:48px;
 			background:#232321;
 			color:#ffffff;
+			border:0;
+			outline:none;
 		}
 	}
 }
